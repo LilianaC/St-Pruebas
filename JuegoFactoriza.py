@@ -62,8 +62,11 @@ with st.form("my_form"):
        return nums,m,s
 
 
-    def revision(xr,yr,nums,start,end):
+   def revision(xr,yr,nums,start,end):
+       
+        
         if xr in nums and yr in nums :
+            
             print("¡Correcto!")
             elapsed = end-start
             print ("Tiempo de respuesta: ",elapsed)
@@ -82,6 +85,7 @@ with st.form("my_form"):
             else:
                 op = 's'
         return op
+
 
 op = 's'
 

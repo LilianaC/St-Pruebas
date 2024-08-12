@@ -90,18 +90,17 @@ with st.form("my_form"):
 op = 's'
 
 while op == 's':
+    nums, m, s = dificultad()
 
-  nums, m, s = dificultad()
-
-  print ("¿Cuáles son los números que....?")
-  print ("Sumados: ",s)
-  print ("Multiplicados: ",m)
-  start = time.time()
-  xr = int(input("¿Cuál es el primer número? "))
-  yr = int(input("¿Cuál es el segundo número? "))
-  end = time.time()
-
-  op = revision(xr,yr,nums,start,end)
+    print ("¿Cuáles son los números que....?")
+    print ("Sumados: ",s)
+    print ("Multiplicados: ",m)
+    start = time.time()
+    xr = int(input("¿Cuál es el primer número? "))
+    yr = int(input("¿Cuál es el segundo número? "))
+    end = time.time()
+    
+    op = revision(xr,yr,nums,start,end)
 
 
 

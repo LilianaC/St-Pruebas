@@ -57,9 +57,9 @@ with st.form("my_form"):
            nums = [x,y]
            print("Los números pueden ser: ",e_list)
 
-        m = x*y
-        s = x+y
-        return nums,m,s
+       m = x*y
+       s = x+y
+       return nums,m,s
 
 
     def revision(xr,yr,nums,start,end):
